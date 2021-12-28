@@ -1,0 +1,48 @@
+@import "./_variables.scss", "./_mixin.scss";
+
+.mac-airpods {
+	background-color: $fondoSeccion;
+	padding-top: 30px;
+}
+
+.macbook, .airpods {
+	border: 1px solid black;
+}
+
+
+.colorPalabras {
+	color: $tituloSeccion;
+}
+
+.titulo-seccion2 {
+	@include display-center;
+
+	h2 {
+		@extend .colorPalabras;
+	}
+}
+
+.parrafo-seccion2 {
+	@include display-center;
+
+	p {
+		@extend .colorPalabras;
+	}
+}
+
+.info-seccion2 {
+	@include display-center;
+
+	a {
+		color: $colorInfo;
+	}
+}
+
+.img-seccion2 {
+	@include display-center;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

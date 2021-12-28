@@ -1,0 +1,18 @@
+@import "./_variables.scss", "./_mixin.scss";
+
+$estilos: (
+	color: black,
+	centro: center,
+	fuente: 30px,
+);
+
+.footer {
+	background-color: map-get($estilos, color);
+	text-align: map-get($estilos, centro);
+	font-size: map-get($estilos, fuente);
+
+	p {
+		color: $colorTitulos;
+	}
+
+}

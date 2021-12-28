@@ -1,0 +1,130 @@
+/*Colores nav*/
+/*Colores secciones*/
+.header-index {
+  background-color: #000000; }
+
+.nav-index {
+  height: 60px;
+  background-color: #000000; }
+  .nav-index .nav_ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px; }
+    .nav-index .nav_ul li {
+      list-style-type: none;
+      padding: 10px; }
+      .nav-index .nav_ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #3498DB; }
+        .nav-index .nav_ul li a i {
+          padding-right: 5px; }
+      .nav-index .nav_ul li a:hover {
+        color: #FBFCFC; }
+
+.titulo-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px; }
+  .titulo-header h1 {
+    color: #FDFEFE; }
+
+.subtitulo-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  .subtitulo-header p {
+    color: #FDFEFE;
+    font-size: 25px; }
+
+.parrafo-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  .parrafo-header a {
+    color: #3498DB; }
+
+.imagen-header {
+  display: flex;
+  justify-content: center; }
+  .imagen-header img {
+    width: 100%;
+    height: auto; }
+
+/*Colores nav*/
+/*Colores secciones*/
+/*Colores nav*/
+/*Colores secciones*/
+.watch {
+  background-color: #FDFEFE;
+  padding-top: 30px; }
+
+.titulo-seccion1 {
+  display: flex;
+  justify-content: center; }
+  .titulo-seccion1 i {
+    padding-right: 5px;
+    color: #1B2631; }
+  .titulo-seccion1 h2 {
+    color: #1B2631; }
+
+.parrafo-seccion1 {
+  display: flex;
+  justify-content: center; }
+  .parrafo-seccion1 p {
+    color: #1B2631; }
+
+.info-seccion1 {
+  display: flex;
+  justify-content: center; }
+  .info-seccion1 a {
+    color: #3498DB; }
+
+.img-seccion1 {
+  display: flex;
+  justify-content: center; }
+  .img-seccion1 img {
+    width: 100%;
+    height: auto; }
+
+/*Colores nav*/
+/*Colores secciones*/
+.mac-airpods {
+  background-color: #FDFEFE;
+  padding-top: 30px; }
+
+.macbook, .airpods {
+  border: 1px solid black; }
+
+.colorPalabras, .titulo-seccion2 h2, .parrafo-seccion2 p {
+  color: #1B2631; }
+
+.titulo-seccion2 {
+  display: flex;
+  justify-content: center; }
+
+.parrafo-seccion2 {
+  display: flex;
+  justify-content: center; }
+
+.info-seccion2 {
+  display: flex;
+  justify-content: center; }
+  .info-seccion2 a {
+    color: #3498DB; }
+
+.img-seccion2 {
+  display: flex;
+  justify-content: center; }
+  .img-seccion2 img {
+    width: 100%;
+    height: auto; }
+
+/*Colores nav*/
+/*Colores secciones*/
+.footer {
+  background-color: black;
+  text-align: center;
+  font-size: 30px; }
+  .footer p {
+    color: #FDFEFE; }

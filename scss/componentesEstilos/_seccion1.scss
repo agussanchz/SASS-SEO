@@ -1,0 +1,44 @@
+@import "./_variables.scss", "./_mixin.scss";
+
+.watch {
+	background-color: $fondoSeccion;
+	padding-top: 30px;
+}
+
+.titulo-seccion1 {
+	@include display-center;
+
+	i {
+		padding-right: 5px;
+		color: $tituloSeccion;
+	}
+
+	h2 {
+		color: $tituloSeccion;
+	}
+}
+
+.parrafo-seccion1 {
+	@include display-center;
+
+	p {
+		color: $tituloSeccion;
+	}
+}
+
+.info-seccion1 {
+	@include display-center;
+
+	a {
+		color: $colorInfo;
+	}
+}
+
+.img-seccion1 {
+	@include display-center;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
